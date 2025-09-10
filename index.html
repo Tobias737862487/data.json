@@ -3,11 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <title>Fruit & Veg Database</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    input { padding: 5px; width: 300px; margin-bottom: 20px; }
+    .item { margin-bottom: 10px; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
+    video { border: 1px solid #ccc; margin-bottom: 10px; }
+  </style>
 </head>
 <body>
-  <h1>Fruit & Vegetable Search</h1>
+  <h1>Fruit & Vegetable Database</h1>
 
-  <!-- Search Box -->
+  <!-- Search Section -->
   <input type="text" id="search" placeholder="Type a fruit or vegetable">
   <div id="results"></div>
 
@@ -18,14 +24,16 @@
   <canvas id="snapshot" width="400" height="300" style="display:none;"></canvas>
   <p id="camera-result"></p>
 
-  <!-- Script Section -->
+  <!-- Script -->
   <script>
-    // JSON search code (simplified example)
+    // Load JSON database
     let database = {};
     fetch('data.json')
       .then(response => response.json())
-      .then(data => database = data);
+      .then(data => database = data)
+      .catch(err => console.error("Failed to load JSON:", err));
 
+    // Search functionality
     const searchInput = document.getElementById('search');
     const resultsDiv = document.getElementById('results');
 
@@ -37,7 +45,12 @@
           database[cat].forEach(item => {
             if(item.name.toLowerCase().includes(query)){
               const div = document.createElement('div');
-              div.textContent = `${item.name} (${cat})`;
+              div.className = 'item';
+              div.innerHTML = `<strong>${item.name}</strong> (${cat})<br>
+                               Color: ${item.color ? item.color.join(', ') : 'N/A'}<br>
+                               Taste: ${item.taste || 'N/A'}<br>
+                               Uses: ${item.uses ? item.uses.join(', ') : 'N/A'}<br>
+                               Nutrition: ${item.nutrition ? item.nutrition.join(', ') : 'N/A'}`;
               resultsDiv.appendChild(div);
             }
           });
@@ -45,7 +58,7 @@
       });
     });
 
-    // Camera access code
+    // Camera access
     const video = document.getElementById('camera');
     const canvas = document.getElementById('snapshot');
     const captureButton = document.getElementById('capture');
@@ -58,7 +71,7 @@
     captureButton.addEventListener('click', () => {
       const ctx = canvas.getContext('2d');
       ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
-      cameraResult.textContent = "Captured! Integrate ML model to detect the item.";
+      cameraResult.textContent = "Captured! Integrate ML model to detect the item here.";
     });
   </script>
 </body>
