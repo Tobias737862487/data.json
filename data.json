@@ -1,0 +1,434 @@
+{
+  "fruits": [
+    {
+      "name": "Apple",
+      "color": ["Red", "Green", "Yellow"],
+      "taste": "Sweet or slightly sour",
+      "uses": ["Snacking", "Juice", "Pie", "Sauce"],
+      "nutrition": ["Vitamin C", "Fiber", "Antioxidants"]
+    },
+    {
+      "name": "Banana",
+      "color": ["Yellow (ripe)", "Green (unripe)"],
+      "taste": "Sweet, creamy",
+      "uses": ["Smoothies", "Snacking", "Baking", "Desserts"],
+      "nutrition": ["Potassium", "Vitamin B6", "Vitamin C", "Fiber"]
+    },
+    {
+      "name": "Orange",
+      "color": ["Orange"],
+      "taste": "Sweet and tangy, juicy",
+      "uses": ["Juice", "Snacking", "Marmalade", "Salads"],
+      "nutrition": ["Vitamin C", "Folate", "Potassium"]
+    },
+    {
+      "name": "Lemon",
+      "color": ["Yellow"],
+      "taste": "Sour, tangy",
+      "uses": ["Lemonade", "Flavoring", "Salad dressing"],
+      "nutrition": ["Vitamin C", "Antioxidants"]
+    },
+    {
+      "name": "Lime",
+      "color": ["Green"],
+      "taste": "Sour, sharp",
+      "uses": ["Drinks", "Marinades", "Desserts"],
+      "nutrition": ["Vitamin C", "Antioxidants"]
+    },
+    {
+      "name": "Grapefruit",
+      "color": ["Pink", "Red", "Yellow"],
+      "taste": "Bitter-sweet and tangy",
+      "uses": ["Juice", "Breakfast fruit", "Salads"],
+      "nutrition": ["Vitamin C", "Fiber", "Antioxidants"]
+    },
+    {
+      "name": "Mango",
+      "color": ["Yellow", "Red", "Green (unripe)"],
+      "taste": "Sweet, tropical, juicy",
+      "uses": ["Smoothies", "Desserts", "Juice"],
+      "nutrition": ["Vitamin C", "Vitamin A", "Fiber"]
+    },
+    {
+      "name": "Pineapple",
+      "color": ["Brown outer skin", "Yellow inside"],
+      "taste": "Sweet and tangy",
+      "uses": ["Juice", "Smoothies", "Tropical dishes"],
+      "nutrition": ["Vitamin C", "Manganese", "Antioxidants"]
+    },
+    {
+      "name": "Papaya",
+      "color": ["Orange", "Yellow"],
+      "taste": "Sweet, musky",
+      "uses": ["Smoothies", "Salads", "Juice"],
+      "nutrition": ["Vitamin C", "Vitamin A", "Folate"]
+    },
+    {
+      "name": "Kiwi",
+      "color": ["Brown skin", "Green inside"],
+      "taste": "Sweet and tangy",
+      "uses": ["Fruit salads", "Smoothies", "Juice"],
+      "nutrition": ["Vitamin C", "Vitamin K", "Fiber"]
+    },
+    {
+      "name": "Melon (Cantaloupe, Honeydew)",
+      "color": ["Orange flesh (cantaloupe)", "Green flesh (honeydew)"],
+      "taste": "Sweet, watery",
+      "uses": ["Snacking", "Salads", "Juice"],
+      "nutrition": ["Vitamin C", "Vitamin A", "Potassium"]
+    },
+    {
+      "name": "Watermelon",
+      "color": ["Green skin", "Red or yellow inside"],
+      "taste": "Sweet, refreshing",
+      "uses": ["Snacking", "Juice", "Salads"],
+      "nutrition": ["Vitamin C", "Hydration", "Antioxidants"]
+    },
+    {
+      "name": "Peach",
+      "color": ["Pink", "Yellow"],
+      "taste": "Sweet, juicy",
+      "uses": ["Snacking", "Desserts", "Juice"],
+      "nutrition": ["Vitamin C", "Vitamin A", "Fiber"]
+    },
+    {
+      "name": "Nectarine",
+      "color": ["Red", "Yellow"],
+      "taste": "Sweet, similar to peach but firmer",
+      "uses": ["Snacking", "Desserts"],
+      "nutrition": ["Vitamin C", "Potassium", "Fiber"]
+    },
+    {
+      "name": "Plum",
+      "color": ["Purple", "Red", "Yellow"],
+      "taste": "Sweet or tart",
+      "uses": ["Snacking", "Jams", "Baking"],
+      "nutrition": ["Vitamin C", "Antioxidants", "Fiber"]
+    },
+    {
+      "name": "Cherry",
+      "color": ["Red", "Dark purple"],
+      "taste": "Sweet or tart",
+      "uses": ["Snacking", "Pies", "Juice"],
+      "nutrition": ["Vitamin C", "Antioxidants", "Fiber"]
+    },
+    {
+      "name": "Apricot",
+      "color": ["Orange-yellow"],
+      "taste": "Sweet and slightly tangy",
+      "uses": ["Snacking", "Jams", "Desserts"],
+      "nutrition": ["Vitamin A", "Vitamin C", "Fiber"]
+    },
+    {
+      "name": "Pear",
+      "color": ["Green", "Yellow", "Red"],
+      "taste": "Sweet, juicy, grainy texture",
+      "uses": ["Snacking", "Juice", "Baking"],
+      "nutrition": ["Fiber", "Vitamin C", "Potassium"]
+    },
+    {
+      "name": "Grape",
+      "color": ["Red", "Green", "Black"],
+      "taste": "Sweet or tart",
+      "uses": ["Snacking", "Juice", "Wine", "Raisins"],
+      "nutrition": ["Vitamin C", "Antioxidants", "Vitamin K"]
+    },
+    {
+      "name": "Strawberry",
+      "color": ["Red"],
+      "taste": "Sweet, slightly tart",
+      "uses": ["Desserts", "Smoothies", "Jams"],
+      "nutrition": ["Vitamin C", "Manganese", "Fiber"]
+    },
+    {
+      "name": "Raspberry",
+      "color": ["Red", "Black (varieties)"],
+      "taste": "Sweet and tart",
+      "uses": ["Jams", "Desserts", "Snacking"],
+      "nutrition": ["Vitamin C", "Fiber", "Antioxidants"]
+    },
+    {
+      "name": "Blueberry",
+      "color": ["Blue", "Purple"],
+      "taste": "Sweet, mildly tart",
+      "uses": ["Snacking", "Pancakes", "Desserts"],
+      "nutrition": ["Vitamin C", "Vitamin K", "Antioxidants"]
+    },
+    {
+      "name": "Blackberry",
+      "color": ["Black-purple"],
+      "taste": "Sweet, tart",
+      "uses": ["Jams", "Smoothies", "Snacking"],
+      "nutrition": ["Vitamin C", "Fiber", "Antioxidants"]
+    },
+    {
+      "name": "Cranberry",
+      "color": ["Red"],
+      "taste": "Very tart",
+      "uses": ["Juice", "Sauces", "Baking"],
+      "nutrition": ["Vitamin C", "Antioxidants", "Fiber"]
+    },
+    {
+      "name": "Pomegranate",
+      "color": ["Red skin with ruby seeds"],
+      "taste": "Sweet, tangy",
+      "uses": ["Juice", "Salads", "Sauces"],
+      "nutrition": ["Vitamin C", "Vitamin K", "Antioxidants"]
+    },
+    {
+      "name": "Fig",
+      "color": ["Purple", "Green"],
+      "taste": "Sweet, chewy with crunchy seeds",
+      "uses": ["Snacking", "Baking", "Jams"],
+      "nutrition": ["Fiber", "Calcium", "Antioxidants"]
+    },
+    {
+      "name": "Date",
+      "color": ["Brown"],
+      "taste": "Very sweet, sticky",
+      "uses": ["Snacking", "Baking", "Smoothies"],
+      "nutrition": ["Fiber", "Potassium", "Iron"]
+    },
+    {
+      "name": "Coconut",
+      "color": ["Brown hairy shell", "White flesh"],
+      "taste": "Sweet, nutty",
+      "uses": ["Drinks", "Desserts", "Cooking"],
+      "nutrition": ["Fiber", "Healthy fats", "Manganese"]
+    },
+    {
+      "name": "Avocado",
+      "color": ["Green"],
+      "taste": "Creamy, nutty",
+      "uses": ["Guacamole", "Salads", "Toast"],
+      "nutrition": ["Healthy fats", "Potassium", "Fiber"]
+    },
+    {
+      "name": "Passionfruit",
+      "color": ["Purple or yellow skin", "Orange pulp"],
+      "taste": "Sweet, tangy",
+      "uses": ["Juice", "Desserts", "Smoothies"],
+      "nutrition": ["Vitamin C", "Fiber", "Antioxidants"]
+    },
+    {
+      "name": "Dragonfruit",
+      "color": ["Pink skin", "White or red flesh with black seeds"],
+      "taste": "Mildly sweet",
+      "uses": ["Smoothies", "Fruit salads"],
+      "nutrition": ["Vitamin C", "Magnesium", "Fiber"]
+    },
+    {
+      "name": "Guava",
+      "color": ["Green skin", "Pink or white flesh"],
+      "taste": "Sweet, tropical",
+      "uses": ["Juice", "Snacking", "Desserts"],
+      "nutrition": ["Vitamin C", "Fiber", "Potassium"]
+    },
+    {
+      "name": "Lychee",
+      "color": ["Red skin", "White juicy flesh"],
+      "taste": "Sweet, floral",
+      "uses": ["Snacking", "Juice", "Desserts"],
+      "nutrition": ["Vitamin C", "Copper", "Antioxidants"]
+    },
+    {
+      "name": "Starfruit (Carambola)",
+      "color": ["Yellow-green"],
+      "taste": "Sweet and tangy",
+      "uses": ["Juice", "Fruit salads"],
+      "nutrition": ["Vitamin C", "Fiber", "Antioxidants"]
+    },
+    {
+      "name": "Persimmon",
+      "color": ["Orange"],
+      "taste": "Sweet when ripe, astringent when unripe",
+      "uses": ["Snacking", "Baking"],
+      "nutrition": ["Vitamin A", "Vitamin C", "Fiber"]
+    },
+    {
+      "name": "Durian",
+      "color": ["Green spiky shell", "Yellow flesh"],
+      "taste": "Strong smell, sweet creamy flavor",
+      "uses": ["Snacking", "Desserts"],
+      "nutrition": ["Carbohydrates", "Fiber", "Vitamin C"]
+    },
+    {
+      "name": "Jackfruit",
+      "color": ["Green spiky skin", "Yellow flesh"],
+      "taste": "Sweet, tropical",
+      "uses": ["Vegan meat substitute", "Desserts", "Curries"],
+      "nutrition": ["Vitamin C", "Fiber", "Potassium"]
+    }
+  ],
+  "vegetables": [
+    {
+      "name": "Tomato",
+      "color": ["Red", "Green (unripe)", "Yellow (varieties)"],
+      "taste": "Sweet, tangy",
+      "uses": ["Sauces", "Salads", "Soups"],
+      "nutrition": ["Vitamin C", "Potassium", "Antioxidants"]
+    },
+    {
+      "name": "Potato",
+      "color": ["Brown skin", "White or yellow inside"],
+      "taste": "Mild, starchy",
+      "uses": ["Fries", "Mashed potatoes", "Baked dishes"],
+      "nutrition": ["Carbohydrates", "Potassium", "Vitamin C"]
+    },
+    {
+      "name": "Sweet potato",
+      "color": ["Orange or purple flesh"],
+      "taste": "Sweet, starchy",
+      "uses": ["Baked", "Fries", "Soups"],
+      "nutrition": ["Vitamin A", "Fiber", "Potassium"]
+    },
+    {
+      "name": "Carrot",
+      "color": ["Orange", "Purple", "Yellow", "White"],
+      "taste": "Sweet, crunchy",
+      "uses": ["Snacking", "Soups", "Juices"],
+      "nutrition": ["Vitamin A", "Fiber", "Potassium"]
+    },
+    {
+      "name": "Beetroot",
+      "color": ["Red-purple"],
+      "taste": "Earthy, sweet",
+      "uses": ["Juices", "Roasted dishes", "Salads"],
+      "nutrition": ["Folate", "Iron", "Antioxidants"]
+    },
+    {
+      "name": "Onion",
+      "color": ["Red", "White", "Yellow"],
+      "taste": "Pungent, sweet when cooked",
+      "uses": ["Soups", "Salads", "Sauces"],
+      "nutrition": ["Vitamin C", "Antioxidants", "Fiber"]
+    },
+    {
+      "name": "Garlic",
+      "color": ["White"],
+      "taste": "Strong, pungent",
+      "uses": ["Flavoring", "Sauces", "Medicinal use"],
+      "nutrition": ["Vitamin C", "Manganese", "Allicin"]
+    },
+    {
+      "name": "Cucumber",
+      "color": ["Green"],
+      "taste": "Mild, watery",
+      "uses": ["Salads", "Pickles"],
+      "nutrition": ["Vitamin K", "Hydration", "Fiber"]
+    },
+    {
+      "name": "Zucchini",
+      "color": ["Green"],
+      "taste": "Mild, soft when cooked",
+      "uses": ["Stir-fries", "Grilled dishes"],
+      "nutrition": ["Vitamin C", "Manganese", "Fiber"]
+    },
+    {
+      "name": "Eggplant",
+      "color": ["Purple", "White (varieties)"],
+      "taste": "Mild, spongy",
+      "uses": ["Curries", "Grilled dishes"],
+      "nutrition": ["Fiber", "Vitamin B1", "Potassium"]
+    },
+    {
+      "name": "Bell pepper",
+      "color": ["Red", "Green", "Yellow", "Orange"],
+      "taste": "Sweet, mild",
+      "uses": ["Salads", "Stir-fries", "Stuffed dishes"],
+      "nutrition": ["Vitamin C", "Vitamin A", "Fiber"]
+    },
+    {
+      "name": "Chili pepper",
+      "color": ["Red", "Green", "Yellow"],
+      "taste": "Hot, spicy",
+      "uses": ["Spicy dishes", "Sauces"],
+      "nutrition": ["Vitamin C", "Capsaicin"]
+    },
+    {
+      "name": "Lettuce",
+      "color": ["Green", "Red"],
+      "taste": "Mild, watery",
+      "uses": ["Salads", "Sandwiches"],
+      "nutrition": ["Vitamin K", "Folate", "Fiber"]
+    },
+    {
+      "name": "Spinach",
+      "color": ["Green"],
+      "taste": "Mild, earthy",
+      "uses": ["Salads", "Smoothies", "Cooked dishes"],
+      "nutrition": ["Iron", "Vitamin C", "Vitamin K"]
+    },
+    {
+      "name": "Kale",
+      "color": ["Dark green"],
+      "taste": "Earthy, slightly bitter",
+      "uses": ["Salads", "Smoothies", "Soups"],
+      "nutrition": ["Vitamin K", "Vitamin C", "Calcium"]
+    },
+    {
+      "name": "Cabbage",
+      "color": ["Green", "Red", "Savoy"],
+      "taste": "Mild, crunchy",
+      "uses": ["Salads", "Soups", "Fermented dishes (sauerkraut)"],
+      "nutrition": ["Vitamin C", "Vitamin K", "Fiber"]
+    },
+    {
+      "name": "Broccoli",
+      "color": ["Green"],
+      "taste": "Earthy, slightly bitter",
+      "uses": ["Steamed", "Stir-fries", "Soups"],
+      "nutrition": ["Vitamin C", "Vitamin K", "Fiber"]
+    },
+    {
+      "name": "Cauliflower",
+      "color": ["White", "Purple (varieties)"],
+      "taste": "Mild, nutty",
+      "uses": ["Roasted", "Soups", "Rice substitute"],
+      "nutrition": ["Vitamin C", "Fiber", "Vitamin K"]
+    },
+    {
+      "name": "Brussels sprouts",
+      "color": ["Green"],
+      "taste": "Nutty, slightly bitter",
+      "uses": ["Roasted", "Steamed", "Stir-fries"],
+      "nutrition": ["Vitamin C", "Vitamin K", "Fiber"]
+    },
+    {
+      "name": "Asparagus",
+      "color": ["Green", "White", "Purple"],
+      "taste": "Earthy, tender",
+      "uses": ["Grilled", "Steamed", "Soups"],
+      "nutrition": ["Vitamin K", "Vitamin C", "Folate"]
+    },
+    {
+      "name": "Celery",
+      "color": ["Green"],
+      "taste": "Crisp, watery",
+      "uses": ["Salads", "Soups", "Snacking"],
+      "nutrition": ["Vitamin K", "Fiber", "Potassium"]
+    },
+    {
+      "name": "Leek",
+      "color": ["Green leaves", "White base"],
+      "taste": "Mild onion-like",
+      "uses": ["Soups", "Stews"],
+      "nutrition": ["Vitamin K", "Folate", "Manganese"]
+    },
+    {
+      "name": "Radish",
+      "color": ["Red skin", "White inside"],
+      "taste": "Peppery, crunchy",
+      "uses": ["Salads", "Pickles"],
+      "nutrition": ["Vitamin C", "Fiber", "Potassium"]
+    },
+    {
+      "name": "Turnip",
+      "color": ["Purple-white skin"],
+      "taste": "Mild, earthy",
+      "uses": ["Soups", "Stews", "Roasted"],
+      "nutrition": ["Vitamin C", "Fiber", "Potassium"]
+    },
+    {
+      "name": "
+
